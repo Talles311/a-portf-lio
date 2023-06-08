@@ -30,3 +30,39 @@
         z-index: -1; /*jogando o elemento para trás de todos os outros*/ 
 
 }
+
+.introducao p { 
+         font-size: 1.5rem;
+         color: #525252;
+
+}
+
+@media (max-width: 1000px) {
+         .introducao h1 {
+                 font-size: 3rem;
+
+         } 
+}
+
+@media (max-width: 800px) {
+          .introducao {
+                grid-template-columns: 1fr 1fr;
+                gap: 50px; 
+          }
+          .introducao h1 {
+            font-size: 2.5rem;
+    } 
+          .introducao h1::before {
+            width: 30px;
+            height: 10px;
+            left: 0px;
+          }
+}
+
+@media (max-width: 400px) {
+           .introducao img {
+                   display: none;
+
+           }
+
+} 
