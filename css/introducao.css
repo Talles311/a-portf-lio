@@ -62,7 +62,17 @@
 @media (max-width: 400px) {
            .introducao img {
                    display: none;
-
            }
+           .introducao {
+                 grid-template-columns: 1fr;
+           }
+           .introducao  h1 { 
+                text-align: center;
+           }
+           .introducao h1::before {
+            width: 30px;
+            height: 10px;
+            left: 35px;
+          }
 
 } 
