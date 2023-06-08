@@ -34,13 +34,14 @@
 .introducao p { 
          font-size: 1.5rem;
          color: #525252;
-
 }
+
+/*Media queries abaixo*/
+
 
 @media (max-width: 1000px) {
          .introducao h1 {
                  font-size: 3rem;
-
          } 
 }
 
@@ -79,7 +80,6 @@
     font-size: 1rem;
     text-align: center;
 }  
-
 }
 
 @media (max-width: 400px) {
