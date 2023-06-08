@@ -59,6 +59,29 @@
           }
 }
 
+@media (max-width: 600px) {
+    .introducao img {
+        display: none;
+}
+.introducao {
+      grid-template-columns: 1fr;
+}
+.introducao  h1 { 
+     text-align: center;
+}
+.introducao h1::before {
+ width: 30px;
+ height: 10px;
+ left: 35px;
+}
+
+.introducao p { 
+    font-size: 1rem;
+    text-align: center;
+}  
+
+}
+
 @media (max-width: 400px) {
            .introducao img {
                    display: none;
@@ -74,5 +97,11 @@
             height: 10px;
             left: 35px;
           }
+ 
+          .introducao p { 
+               font-size: 1rem;
+               text-align: center;
+          }  
+
 
 } 
