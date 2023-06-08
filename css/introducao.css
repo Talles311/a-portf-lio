@@ -6,12 +6,27 @@
          grid-template-columns: 4fr 8fr;
          gap: 100px;
          align-items: center;
+         
 }
 
 .introducao h1 { 
           font-size: 4.5rem;
           line-height: 1.125;
           margin-bottom: 30px;
-          
+          position: relative; 
 }
 
+.introducao h1::before {
+        content: '';
+        display: block;
+        width: 130px;
+        height: 100px;
+        background: url('../img/detalhe.svg') no-repeat center;
+        position: absolute;
+
+        top: -15px;
+        left: -40px;
+
+        z-index: -1; /*jogando o elemento para trás de todos os outros*/ 
+
+}
