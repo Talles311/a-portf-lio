@@ -58,7 +58,10 @@
             height: 10px;
             left: 0px;
           }
-}
+      }
+
+
+ /* decisão minha tirar imagem abaixo de 600px*/     
 
 @media (max-width: 600px) {
     .introducao img {
