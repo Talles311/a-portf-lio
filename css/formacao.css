@@ -111,11 +111,10 @@
           position: absolute;
           left: -36px;
           top: -4px;
-          font
-}
+        }
 
 .cursos h3::before {
-    background: url("../img/cursos.svg") no-repeat center center;
+    background: url('../img/cursos.svg') no-repeat center center;
 
 }
 
