@@ -1,6 +1,5 @@
 .footer {
       background: #000000;
-       color: white;
 }
 
 .footer-container {
@@ -34,14 +33,15 @@
 }
 
 .footer-copy {
+        grid-column: 1 / -1;
         font-size: 1.125rem;
         color: #8f8f8f;
-        grid-column: 1 / -3;
+        
 }
 
 @media (max-width: 800px) {
           .footer-container {
-                grid-template-columns: 1fr ;
+                grid-template-columns: 1fr;
                 gap: 40px;
 
           } 
